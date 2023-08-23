@@ -1,0 +1,13 @@
+.table  {border-collapse:collapse;border-spacing:0;margin-top: -1px; margin:10px 0pt 10px; font-size: 9pt;width: 100%;}
+.table td{border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:grey;text-align: center;}
+.table th{border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:grey;padding-left:2px;}
+.normal { background-color: #FFFFFF; }
+.highlight {
+    background-color: #FFFF99;
+    cursor: default;
+}
+
+table #myTable.dataTable tbody tr:hover {
+  background-color: #ffa;
+  cursor: pointer;
+}
